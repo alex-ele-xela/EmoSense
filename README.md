@@ -79,7 +79,7 @@ Graphs:
 
 Labeled Transcript: Transcript can be found [here](./outputs/strong/labelled_transcript.docx)
 
-### Input 4 : [Dramatic Film Monologue : The Society](https://www.youtube.com/watch?v=ERNWm9aiZQw&pp=ygUSbW9ub2xvZ3VlIGNsb3NlIHVw)
+### Input 4 : [Closeup monologue from The Women](https://www.youtube.com/watch?v=5SI-pyBp-Kw)
 
 Video:
 [![Society Video](./outputs/women/result_grab.png)](./outputs/women/result.mp4)
