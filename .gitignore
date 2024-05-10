@@ -1,4 +1,5 @@
 temp.ipynb
 temp.py
-models
-outputs
+
+models/*
+!models/SpeechEmotionRecog.py
