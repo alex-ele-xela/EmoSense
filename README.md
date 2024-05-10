@@ -13,6 +13,8 @@ Building novel models for each emotion detection task.
 
 ## What is EmoSense
 
+![EmoSense Flow Diagram](./Flow%20Diagram.jpg "EmoSense Flow Diagram")
+
 Emotions are integral to human communication and interactions, yet accurately detecting and interpreting them presents significant challenges. Existing emotion detection systems often rely on single modalities, such as text or speech, leading to limited accuracy and depth of analysis. Inconsistent or inaccurate emotion detection can hinder personalized user experiences, effective mental health assessments, and interactive technologies.
 
 Problems addressed:
@@ -41,14 +43,62 @@ Problems addressed:
 
 Here are the results of EmoSense for 5 videos sourced from Youtube:
 
-### Input 1 : https://www.youtube.com/watch?v=ERNWm9aiZQw&pp=ygUSbW9ub2xvZ3VlIGNsb3NlIHVw
-
-Graphs: 
-![Face Emotions](./outputs/society/face_emotion.png "Face Emotions")
-![Speech Emotions](./outputs/society/ser.png "Speech Emotions")
-
-Labeled Transcript:
-Transcript can be found [here](./outputs/society/labelled_transcript.docx)
+### Input 1 : [Dramatic Film Monologue : The Society](https://www.youtube.com/watch?v=ERNWm9aiZQw)
 
 Video:
-![Society Video](./outputs/society/result.mp4 "Society Video")
+[![Society Video](./outputs/society/result_grab.png)](./outputs/society/result.mp4)
+
+Graphs:
+| Face Emotions     | Speech Emotions     |
+| ------------- | ------------- |
+| ![Face Emotions](./outputs/society/face_emotion.png "Face Emotions") | ![Speech Emotions](./outputs/society/ser.png "Speech Emotions") |
+
+Labeled Transcript: Transcript can be found [here](./outputs/society/labelled_transcript.docx)
+
+### Input 2 : [Crazy Rich Asians Mahjong Monologue | Close Up](https://www.youtube.com/watch?v=dvJV_fJqhuY)
+
+Video:
+[![Society Video](./outputs/mahjong/result_grab.png)](./outputs/mahjong/result.mp4)
+
+Graphs:
+| Face Emotions     | Speech Emotions     |
+| ------------- | ------------- |
+| ![Face Emotions](./outputs/mahjong/face_emotion.png "Face Emotions") | ![Speech Emotions](./outputs/mahjong/ser.png "Speech Emotions") |
+
+Labeled Transcript: Transcript can be found [here](./outputs/mahjong/labelled_transcript.docx)
+
+### Input 3 : [Dramatic Monologue | Strong Female Drama Actor, Young Actress Celines Estevez](https://www.youtube.com/watch?v=VkQADPRK5rQ)
+
+Video:
+[![Society Video](./outputs/strong/result_grab.png)](./outputs/strong/result.mp4)
+
+Graphs:
+| Face Emotions     | Speech Emotions     |
+| ------------- | ------------- |
+| ![Face Emotions](./outputs/strong/face_emotion.png "Face Emotions") | ![Speech Emotions](./outputs/strong/ser.png "Speech Emotions") |
+
+Labeled Transcript: Transcript can be found [here](./outputs/strong/labelled_transcript.docx)
+
+### Input 4 : [Dramatic Film Monologue : The Society](https://www.youtube.com/watch?v=ERNWm9aiZQw&pp=ygUSbW9ub2xvZ3VlIGNsb3NlIHVw)
+
+Video:
+[![Society Video](./outputs/women/result_grab.png)](./outputs/women/result.mp4)
+
+Graphs:
+| Face Emotions     | Speech Emotions     |
+| ------------- | ------------- |
+| ![Face Emotions](./outputs/women/face_emotion.png "Face Emotions") | ![Speech Emotions](./outputs/women/ser.png "Speech Emotions") |
+
+Labeled Transcript: Transcript can be found [here](./outputs/women/labelled_transcript.docx)
+
+### Input 5 : [“You Understand?” - short dramatic monologue](https://www.youtube.com/watch?v=YDhszbGqBmk)
+
+Video:
+[![Society Video](./outputs/you_understand/result_grab.png)](./outputs/you_understand/result.mp4)
+
+Graphs:
+| Face Emotions     | Speech Emotions     |
+| ------------- | ------------- |
+| ![Face Emotions](./outputs/you_understand/face_emotion.png "Face Emotions") | ![Speech Emotions](./outputs/you_understand/ser.png "Speech Emotions") |
+
+Labeled Transcript: Transcript can be found [here](./outputs/you_understand/labelled_transcript.docx)
